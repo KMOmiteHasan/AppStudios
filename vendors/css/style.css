@@ -21,7 +21,7 @@ html {
 
 body {
     overflow: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
     font-family: 'Quicksand', sans-serif;
     /* font-family: 'MADE Soulmaze', sans-serif; */
     background: #0D0B1E;

@@ -584,15 +584,15 @@
                 </div>
             </div>
 
-            <form action="" class="contact-form">
+            <form class="contact-form">
                 <div class="form-block">
                     <div class="form-sub-block">
                         <label for="nameForm">Name</label>
-                        <input type="text" name="nameForm" id="nameForm" placeholder="Enter your name" required autofocus>
+                        <input type="text" name="nameForm" id="nameForm" placeholder="Enter your name" required>
                     </div>
                     <div class="form-sub-block">
-                        <label for="nameForm">Email</label>
-                        <input type="email" name="nameForm" id="nameForm" placeholder="Enter your email" required>
+                        <label for="emailForm">Email</label>
+                        <input type="email" name="emailForm" id="emailForm" placeholder="Enter your email" required>
                     </div>
                 </div>
                 <div class="form-block msg-form-block">
@@ -656,6 +656,13 @@
     <div class="body-background-shade-8-wrapper">
         <div class="body-background-shade-8"></div>
     </div>
+
+
+    <script>
+        window.onbeforeunload = function () {
+                window.scrollTo(0, 0);
+            }
+    </script>
     
 
 </body>
