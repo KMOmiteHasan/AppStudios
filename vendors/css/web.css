@@ -733,8 +733,8 @@ footer button {
     }
 
     .feature-card .content h3 {
-    font-size: 2.4rem;
-}
+        font-size: 2.4rem;
+    }
 }
 
 @media (max-width:1080px) {
@@ -749,92 +749,93 @@ footer button {
     }
 
     .intro-text {
-    padding-left: 6rem;
-}
+        padding-left: 6rem;
+    }
 
     .title {
-    font-size: 9rem;
-}
+        font-size: 9rem;
+    }
 
 
 
-.contact-us-container .col-8,
-.contact-us-container .col-4 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}
+    .contact-us-container .col-8,
+    .contact-us-container .col-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 
-.contact-us-container .col-4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1.5rem;
-}
+    .contact-us-container .col-4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
 
-.services-list {
-    margin-top: 3rem;
-}
+    .services-list {
+        margin-top: 3rem;
+    }
 
-.contact-us-container .lead {
-    font-size: 1.8rem;
-}
+    .contact-us-container .lead {
+        font-size: 1.8rem;
+    }
 
-.services-list .data h4 {
-    font-size: 2.2rem;
-}
+    .services-list .data h4 {
+        font-size: 2.2rem;
+    }
 
-.services-list .data p {
-    font-size: 1.55rem;
-}
+    .services-list .data p {
+        font-size: 1.55rem;
+    }
 
-.form-group label {
-    font-size: 1.5rem;
-}
+    .form-group label {
+        font-size: 1.5rem;
+    }
 
-.form-control {
-    padding: 0.375rem 0.75rem !important;
-    font-size: 1.4rem !important;
-}
+    .form-control {
+        padding: 0.375rem 0.75rem !important;
+        font-size: 1.4rem !important;
+    }
 
     .why-us-section .feature-content .col {
-    width: 49%;
-}
+        width: 48%;
+    }
 
-.feature-card .content p {
-    font-size: 1.5rem;
-}
+    .feature-card .content p {
+        font-size: 1.5rem;
+    }
 
-.plan-your-project .col-4 {
-    width: 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}
+    .plan-your-project .col-4 {
+        width: 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 
-.card-body {
-    font-size: 1.45rem;
-}
+    .card-body {
+        font-size: 1.45rem;
+    }
 
 
-.timeline-section .floating-cta button {
-    font-size: 1.6rem;
-}
+    .timeline-section .floating-cta button {
+        font-size: 1.6rem;
+    }
 }
 
 @media (max-width:868px) {
     html {
         font-size: 8px;
     }
+
     .title {
-    font-size: 8rem;
-}
+        font-size: 8rem;
+    }
 
 
-.hero-container .floating-div {
-    width: 55%;
-    padding: 0;
-}
+    .hero-container .floating-div {
+        width: 55%;
+        padding: 0;
+    }
 
 }
 
@@ -843,56 +844,75 @@ footer button {
         font-size: 7px;
     }
 
-        .intro-text {
-    padding-left: 5rem;
+    .intro-text {
+        padding-left: 5rem;
+    }
+
+    .contact-us-container .title {
+        margin-left: 5.8rem;
+    }
+
+    .contact-us-container .lead {
+        margin-left: 6rem;
+    }
+
+    .feature-content {
+    width: 100%;
+    padding: 0px 4rem;
+    padding-top: 3.7rem;
+    margin: 0 !important;
 }
 
-.contact-us-container .title {
-    margin-left: 7rem;
-}
-.contact-us-container .lead {
-    margin-left: 7.2rem;
+    .services-list {
+        padding-left: 4.3rem;
+    }
+
+    .timeline-section .floating-cta {
+        padding: 0 5.8rem;
+    }
+
+    .timeline-section .floating-cta button {
+    padding: 1.2rem 4rem 1rem 4rem;
+    }
+
+    .plan-your-project-title {
+        margin-left: 5.8rem;
+    }
+
+    .timeline-section .row {
+        margin-left: 5.8rem;
+    }
+
+    .our-process-title {
+        margin-left: 5.8rem;
+    }
+
+    .timeline-section img {
+        margin-left: 3rem;
+    }
+
+    .uiux-section p {
+        margin: 2rem 0;
+        padding: 0 2rem;
 }
 
-.services-list {
-    padding-left: 5.5rem;
-}
-.timeline-section .floating-cta {
-    padding: 0 7rem;
-}
-
-.plan-your-project-title {
-    margin-left: 7rem;
-}
-
-.timeline-section .row {
-    margin-left: 7rem;
-}
-
-.our-process-title {
-    margin-left: 7rem;
-}
-
-.timeline-section img {
-    margin-left: 3rem;
-}
-
-footer {
-    padding: 3.7rem 7rem;
-}
+    footer {
+        padding: 3.7rem 5.8rem;
+    }
 }
 
 @media (max-width:668px) {
-        .title {
-    font-size: 7rem;
-}
-.subtitle {
-    font-size: 1.9rem;
-}
+    .title {
+        font-size: 7rem;
+    }
 
-.button {
-    margin-top: 4rem;
-}
+    .subtitle {
+        font-size: 1.9rem;
+    }
+
+    .button {
+        margin-top: 4rem;
+    }
 }
 
 @media (max-width:580px) {
@@ -900,69 +920,134 @@ footer {
         font-size: 6px;
     }
 
-        .intro-text {
-    padding-left: 4rem;
+    .intro-container {
+        position: relative;
+    }
+
+    .intro-text {
+        width: 50%;
+        height: auto;
+        padding: 3rem 5rem;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 99;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        background-color: rgba(9, 11, 53, 0.9);
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        border-radius: 2rem;
 }
 
-.contact-us-container .title {
-    margin-left: 6rem;
-}
-.contact-us-container .lead {
-    margin-left: 6.2rem;
-}
+    .intro-slideshow {
+        width: 100% !important;
+        height: 100vh;
+    }
 
-.services-list {
-    padding-left: 4.5rem;
-}
+    .contact-us-container .title {
+        margin-left: 4.6rem;
+    }
 
-.timeline-section .floating-cta {
-    padding: 0 6rem;
-}
+    .contact-us-container .lead {
+        margin-left: 4.75rem;
+    }
 
-.plan-your-project-title {
-    margin-left: 6rem;
-}
+    .services-list {
+        padding-left: 3.2rem;
+    }
 
-.timeline-section .row {
-    margin-left: 6rem;
-}
+    .timeline-section .floating-cta {
+        padding: 0 4.6rem;
+    }
 
-.our-process-title {
-    margin-left: 6rem;
-}
+        .timeline-section .floating-cta button {
+    padding: 1.2rem 3.3rem 1rem 3.3rem;
+    }
 
-.timeline-section img {
-    margin-left: 1.5rem;
-}
+    .plan-your-project-title {
+        margin-left: 4.6rem;
+    }
 
-footer {
-    padding: 3.7rem 6rem;
-}
+    .timeline-section .row {
+        margin-left: 4.6rem;
+    }
 
-footer .col-4 {
-    padding: 0;
-}
+    .our-process-title {
+        margin-left: 4.6rem;
+    }
 
-.uiux-section video {
-    margin: 3rem 0;
-    object-fit: cover;
-}
+    .timeline-section img {
+        width: 107%;
+        margin-left: 1.5rem;
+    }
+
+    footer {
+        padding: 3.7rem 4.6rem;
+    }
+
+    footer .col-4 {
+        padding: 0;
+    }
+
+    .uiux-section video {
+        margin: 3rem 0;
+        object-fit: cover;
+    }
 }
 
 @media (max-width:520px) {
-            .title {
-    font-size: 6rem;
+    .intro-text {
+        width: 60%;
+    }
+
+    .title {
+        font-size: 6rem;
+    }
+
+    .subtitle {
+        font-size: 1.8rem;
+    }
+
+    .floating-cta .cta {
+        width: 60%;
+    }
+
+    .floating-cta a {
+        width: 40%;
+    }
+
+    .timeline-section img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
 }
-.subtitle {
-    font-size: 1.8rem;
+
+.timeline-section .floating-cta button {
+    width: 100%;
+    padding: 1.2rem 2.5rem 1rem 2.5rem;
 }
 }
 
 @media (max-width:420px) {
-            .title {
-    font-size: 5rem;
-}
-.subtitle {
-    font-size: 1.65rem;
-}
+    .intro-text {
+        width: 65%;
+    }
+
+    .title {
+        font-size: 5rem;
+    }
+
+    .subtitle {
+        font-size: 1.65rem;
+    }
 }

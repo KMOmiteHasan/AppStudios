@@ -168,3 +168,14 @@ Array.from(featureCards).forEach(function(card) {
         lottiePlayer.pause();
     });
 });
+
+
+function lottieAutoPlayMobile() {
+    document.querySelectorAll(".feature-card").forEach((card)=>{
+        var lottiePlayer = card.getElementsByTagName("lottie-player")[0];
+        lottiePlayer.setDirection(1);
+        lottiePlayer.play();
+    })
+}
+
+window.addEventListener('load', lottieAutoPlayMobile);
