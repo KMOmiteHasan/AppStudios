@@ -846,6 +846,40 @@ footer button {
         .intro-text {
     padding-left: 5rem;
 }
+
+.contact-us-container .title {
+    margin-left: 7rem;
+}
+.contact-us-container .lead {
+    margin-left: 7.2rem;
+}
+
+.services-list {
+    padding-left: 5.5rem;
+}
+.timeline-section .floating-cta {
+    padding: 0 7rem;
+}
+
+.plan-your-project-title {
+    margin-left: 7rem;
+}
+
+.timeline-section .row {
+    margin-left: 7rem;
+}
+
+.our-process-title {
+    margin-left: 7rem;
+}
+
+.timeline-section img {
+    margin-left: 3rem;
+}
+
+footer {
+    padding: 3.7rem 7rem;
+}
 }
 
 @media (max-width:668px) {
@@ -868,6 +902,50 @@ footer button {
 
         .intro-text {
     padding-left: 4rem;
+}
+
+.contact-us-container .title {
+    margin-left: 6rem;
+}
+.contact-us-container .lead {
+    margin-left: 6.2rem;
+}
+
+.services-list {
+    padding-left: 4.5rem;
+}
+
+.timeline-section .floating-cta {
+    padding: 0 6rem;
+}
+
+.plan-your-project-title {
+    margin-left: 6rem;
+}
+
+.timeline-section .row {
+    margin-left: 6rem;
+}
+
+.our-process-title {
+    margin-left: 6rem;
+}
+
+.timeline-section img {
+    margin-left: 1.5rem;
+}
+
+footer {
+    padding: 3.7rem 6rem;
+}
+
+footer .col-4 {
+    padding: 0;
+}
+
+.uiux-section video {
+    margin: 3rem 0;
+    object-fit: cover;
 }
 }
 
