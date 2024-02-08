@@ -748,9 +748,15 @@ footer button {
         font-size: 8.5px;
     }
 
+    .intro-text {
+    padding-left: 6rem;
+}
+
     .title {
     font-size: 9rem;
 }
+
+
 
 .contact-us-container .col-8,
 .contact-us-container .col-4 {
@@ -836,6 +842,10 @@ footer button {
     html {
         font-size: 7px;
     }
+
+        .intro-text {
+    padding-left: 5rem;
+}
 }
 
 @media (max-width:668px) {
@@ -855,6 +865,10 @@ footer button {
     html {
         font-size: 6px;
     }
+
+        .intro-text {
+    padding-left: 4rem;
+}
 }
 
 @media (max-width:520px) {
