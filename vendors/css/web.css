@@ -848,6 +848,10 @@ footer button {
         padding-left: 5rem;
     }
 
+    .hero-container {
+        flex-direction: column;
+    }
+
     .contact-us-container .title {
         margin-left: 5.8rem;
     }
@@ -857,11 +861,11 @@ footer button {
     }
 
     .feature-content {
-    width: 100%;
-    padding: 0px 4rem;
-    padding-top: 3.7rem;
-    margin: 0 !important;
-}
+        width: 100%;
+        padding: 0px 4rem;
+        padding-top: 3.7rem;
+        margin: 0 !important;
+    }
 
     .services-list {
         padding-left: 4.3rem;
@@ -872,7 +876,7 @@ footer button {
     }
 
     .timeline-section .floating-cta button {
-    padding: 1.2rem 4rem 1rem 4rem;
+        padding: 1.2rem 4rem 1rem 4rem;
     }
 
     .plan-your-project-title {
@@ -894,7 +898,7 @@ footer button {
     .uiux-section p {
         margin: 2rem 0;
         padding: 0 2rem;
-}
+    }
 
     footer {
         padding: 3.7rem 5.8rem;
@@ -945,7 +949,7 @@ footer button {
         -ms-border-radius: 2rem;
         -o-border-radius: 2rem;
         border-radius: 2rem;
-}
+    }
 
     .intro-slideshow {
         width: 100% !important;
@@ -968,8 +972,8 @@ footer button {
         padding: 0 4.6rem;
     }
 
-        .timeline-section .floating-cta button {
-    padding: 1.2rem 3.3rem 1rem 3.3rem;
+    .timeline-section .floating-cta button {
+        padding: 1.2rem 3.3rem 1rem 3.3rem;
     }
 
     .plan-your-project-title {
@@ -1025,17 +1029,17 @@ footer button {
     }
 
     .timeline-section img {
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-}
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+    }
 
-.timeline-section .floating-cta button {
-    width: 100%;
-    padding: 1.2rem 2.5rem 1rem 2.5rem;
-}
+    .timeline-section .floating-cta button {
+        width: 100%;
+        padding: 1.2rem 2.5rem 1rem 2.5rem;
+    }
 }
 
 @media (max-width:420px) {
