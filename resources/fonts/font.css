@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "argent";
+    src: url("/resources/fonts/argent.otf");
+}
+
+@font-face {
+    font-family: "manifold";
+    src: url("/resources/fonts/ManifoldCF-Regular.otf");
+}
+
+@font-face {
+    font-family: "manifold-bold";
+    src: url("/resources/fonts/manifold-bold.woff");
+}

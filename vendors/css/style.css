@@ -126,6 +126,10 @@ body {
     transform: translateY(-50%);
 }
 
+.heading-text {
+    font-size: 25px;
+}
+
 .hero-section {
     width: 100%;
     padding: 0 9rem;
@@ -145,10 +149,10 @@ body {
 .hero-section h1 {
     color: #ffffff;
     text-align: center;
-    font-family: 'MADE Soulmaze', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 8rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
     margin: 2.1rem 0;
@@ -311,10 +315,10 @@ body {
 .service-section h1 {
     color: #ffffff;
     text-align: center;
-    font-family: 'MADE Soulmaze', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 5.2rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
     margin: 1rem 0 5rem;
@@ -487,10 +491,10 @@ body {
 .feature-section h1 {
     color: #ffffff;
     text-align: center;
-    font-family: 'MADE Soulmaze', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 5.2rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
     margin-bottom: 6rem;
@@ -785,10 +789,10 @@ body {
 .project-section h1 {
     color: #ffffff;
     text-align: center;
-    font-family: 'MADE Soulmaze', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 5.2rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
     margin-bottom: 5rem;
@@ -810,54 +814,18 @@ body {
 }
 
 .project-content-sub-carousel {
-    width: calc(100% - 3rem);
+    width: calc(100% - 14px);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    -webkit-animation: carouselSlider 15s linear infinite;
-    animation: carouselSlider 15s linear infinite;
-    padding-right: 3rem;
+    -webkit-animation: carouselSlider 25s linear infinite;
+    animation: carouselSlider 25s linear infinite;
+    padding-right: 14px;
 }
-
-.project-content-sub-carousel2 {
-    padding-left: 5rem;
-    padding-right: 0;
+.margin-start {
+    margin-left: 14px;
 }
-
-.project-content-sub-carousel img {
-    height: 45rem;
-    -webkit-border-radius: 2.2rem;
-    -moz-border-radius: 2.2rem;
-    -ms-border-radius: 2.2rem;
-    -o-border-radius: 2.2rem;
-    border-radius: 2.2rem;
-}
-
-.project-content-sub-carousel img:first-child {
-    width: 35%;
-}
-
-.project-content-sub-carousel img:nth-child(2) {
-    width: 25%;
-}
-
-.project-content-sub-carousel img:last-child {
-    width: 35%;
-}
-
-.project-content-sub-carousel2 img:first-child {
-    width: 30%;
-}
-
-.project-content-sub-carousel2 img:nth-child(2) {
-    width: 27%;
-}
-
-.project-content-sub-carousel2 img:last-child {
-    width: 38%;
-}
-
 
 @keyframes carouselSlider {
     0% {
@@ -901,10 +869,10 @@ body {
 .contact-section h1 {
     color: #ffffff;
     text-align: center;
-    font-family: 'MADE Soulmaze', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 5.2rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
     margin-bottom: 1rem;
@@ -1356,7 +1324,7 @@ filter: blur(427.1000061035156px);
     height: 37rem;
     }
     .project-content-sub-carousel img {
-    height: 40rem
+    height: 60rem
     }
     .feature-card {
         min-height: 55rem;
@@ -1377,7 +1345,7 @@ filter: blur(427.1000061035156px);
     }
 
     .project-content-sub-carousel img {
-    height: 35rem
+        height: 60rem
     }
 }
 
@@ -1506,7 +1474,7 @@ filter: blur(427.1000061035156px);
     width: 100%;
 }
 .project-content-sub-carousel img {
-    height: 30rem;
+    height: 60rem
 }
 .contact-section-container {
     width: 100%;

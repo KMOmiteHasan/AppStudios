@@ -1,0 +1,167 @@
+/* Intro Slideshow */
+.intro-slideshow {
+    width: 50%;
+    height: 100vh;
+}
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure {
+    position: relative;
+    width: 400%;
+    margin: 0;
+    left: 0;
+    animation: 15s slider infinite;
+}
+
+.slide {
+    float: left;
+    width: 25%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    22% {
+        left: 0;
+    }
+
+    27% {
+        left: -100%;
+    }
+
+    49% {
+        left: -100%;
+    }
+
+    54% {
+        left: -200%;
+    }
+
+    75% {
+        left: -200%;
+    }
+
+    80% {
+        left: -300%;
+    }
+
+    100% {
+        left: -300%;
+    }
+}
+
+
+.hero-slidshow-mobile {
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.mobile-slide {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#mobile-slider {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: transform 1s ease;
+    animation: 15s mobile-slider infinite;
+}
+
+@keyframes mobile-slider {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(-100%);
+    }
+
+    50% {
+        transform: translateY(-100%);
+    }
+
+    55% {
+        transform: translateY(-200%);
+    }
+
+    75% {
+        transform: translateY(-200%);
+    }
+
+    80% {
+        transform: translateY(-300%);
+    }
+
+    100% {
+        transform: translateY(-300%);
+    }
+}
+
+.hero-slidshow-web {
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.web-slide {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#web-slider {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    transition: transform 1s ease;
+    animation: 15s web-slider infinite;
+}
+
+@keyframes web-slider {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(100%);
+    }
+
+    50% {
+        transform: translateY(100%);
+    }
+
+    55% {
+        transform: translateY(200%);
+    }
+
+    75% {
+        transform: translateY(200%);
+    }
+
+    80% {
+        transform: translateY(300%);
+    }
+
+    100% {
+        transform: translateY(300%);
+    }
+}

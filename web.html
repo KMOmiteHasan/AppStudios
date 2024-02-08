@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AppStudios</title>
+    <link href="vendors/css/web.css" rel="stylesheet">
+    <link href="resources/fonts/font.css" rel="stylesheet">
+    <link href="vendors/css/slider.css" rel="stylesheet">
+    <link href="vendors/css/cursor.css" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/images/logo.png">
+
+    <link rel="preload" href="resources/fonts/argent.otf" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="resources/fonts/ManifoldCF-Regular.otf" as="font" type="font/woff" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body>
+    <div id="section-container" class="section-container">
+        <div class="floating-btn-container">
+            <button id="nav-up" class="floating-nav-btn nav-up" onclick="goPrevious()">
+                <img src="resources/images/arrow.svg">
+            </button>
+            <button id="nav-down" class="floating-nav-btn nav-down" onclick="goNext()">
+                <img src="resources/images/arrow.svg">
+            </button>
+        </div>
+        <!-- Intro Section Start-->
+        <div class="snap section intro-container">
+            <!-- Text -->
+            <div class="intro-text">
+                <div>
+                    <div class="title">Boost your <br>business <br> by 10x</div>
+                    <div class="subtitle">GET YOUR OWN WEB APPLICATION TODAY!</div>
+                    <button class="button get-started-btn">Get Started</button>
+                </div>
+            </div>
+
+            <!-- Carousel -->
+            <div class="intro-slideshow">
+                <div id="slider">
+                    <figure>
+                        <!-- slide images -->
+                        <img class="slide" src="resources/images/intro-1.png">
+                        <img class="slide" src="resources/images/intro-2.png">
+                        <img class="slide" src="resources/images/intro-3.png">
+                        <img class="slide" src="resources/images/intro-1.png">
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <!-- Intro Section End-->
+
+        <!-- Hero Section Start -->
+        <div class="snap section hero-container">
+            <div class="floating-div">
+                <div class="text-container">
+                    <div>Want something like this?</div>
+                    <div class="bold">We got you!</div>
+                </div>
+            </div>
+            <div class="hero-slidshow-mobile">
+                <div id="mobile-slider">
+                    <div>
+                        <!-- slide images -->
+                        <img class="mobile-slide" src="resources/images/mobile-1.png">
+                        <img class="mobile-slide" src="resources/images/mobile-2.png">
+                        <img class="mobile-slide" src="resources/images/mobile-3.png">
+                        <img class="mobile-slide" src="resources/images/mobile-1.png">
+                    </div>
+                </div>
+            </div>
+            <div class="hero-slidshow-web">
+                <div id="web-slider">
+                    <div>
+                        <!-- slide images -->
+                        <img class="web-slide" src="resources/images/web-1.png">
+                        <img class="web-slide" src="resources/images/web-3.png">
+                        <img class="web-slide" src="resources/images/web-2.png">
+                        <img class="web-slide" src="resources/images/web-1.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero Section End -->
+
+        <!-- Contact Us Section Start -->
+        <div class="snap section-auto contact-us-container">
+            <div>
+                <!-- Title Section Start -->
+                <div class="row">
+                    <div>
+                        <h2 class="title">Upgrade your Web App</h2>
+                        <p class="lead">Get the best in class Web App Development services from a team of experienced
+                            professionals</p>
+                    </div>
+                </div>
+                <!-- Title Section End -->
+
+                <!-- List and Form Start -->
+                <div class="row">
+                    <div class="col-8">
+                        <div class="services-list">
+                            <!-- List Section Start -->
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="data">
+                                        <h4>E-Commerce Web Apps</h4>
+                                        <p>Boost sales and customer engagement with our tailor-made E-Commerce web apps
+                                            using trendy and innovative designs. </p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="data">
+                                        <h4>CRM software</h4>
+                                        <p>Our experts can design a CRM plan that not only drives sales but takes care
+                                            of all your Customer Management Strategies and increases your ROI. </p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="data">
+                                        <h4>Chatbot integrations</h4>
+                                        <p>Seamlessly integrate chatbots into your systems, enhancing customer
+                                            interactions and optimizing operational efficiency for faster business
+                                            growth.</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="data">
+                                        <h4>Customer Portal</h4>
+                                        <p>Enhance customer satisfaction with our custom-built Customer Portals.
+                                            Seamlessly connect, communicate, and provide value to your clients.</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="data">
+                                        <h4>Real Estate Web Apps</h4>
+                                        <p>Redefine property management, listings, and client interaction. Our web apps
+                                            offer powerful tools for property search, management, and seamless client
+                                            experiences.</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="data">
+                                        <h4>Custom Web Apps</h4>
+                                        <p>Our team of experts can assist on every step from Project Formulation to
+                                            project delivery, keeping in mind your business needs and delivering a
+                                            product that stands out in terms of Quality, Customer Experience and
+                                            feasibility.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- List Section End -->
+                        </div>
+                    </div>
+
+                    <!-- Form Start-->
+                    <div class="col-4">
+                        <div class="form-container">
+                            <p>Let's Discuss Yor Project</p>
+                            <form class="needs-validation" novalidate>
+                                <div class="item">
+                                    <div class="form-group">
+                                        <label for="nameInput">Name <span>*</span></label>
+                                        <input type="name" class="form-control" id="nameInput" required>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="form-group">
+                                        <label for="emailInput">Email <span>*</span></label>
+                                        <input type="email" class="form-control" id="emailInput" required>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="form-group">
+                                        <label for="phoneInput">Phone <span>*</span></label>
+                                        <input type="tel" class="form-control" id="phoneInput" required>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="form-group">
+                                        <label for="messageInput">Project </label>
+                                        <textarea class="form-control" id="messageInput"></textarea>
+                                    </div>
+                                </div>
+                                <button class="submit-btn" onclick="submitForm()">Get Free Quote</button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Form End -->
+                </div>
+                <!-- List and Form End -->
+            </div>
+
+        </div>
+        <!-- Contact Us Section End -->
+    </div>
+
+    <!-- Why Us Section Start -->
+    <div class="why-us-section">
+        <div class="title">WHY US?</div>
+        <div class="row g-0 feature-content">
+            <div class="col p-0">
+                <div class="feature-card" id="card-1">
+                    <div class="lottie">
+                        <lottie-player id="lottie-1" src="resources/animations/world.json" background="transparent" speed="1" loop></lottie-player>
+                    </div>
+                    <div class="content">
+                        <h3>Multiple Languages</h3>
+                        <p>Boost your website by supporting multiple languages at once for a personalized user
+                            experience
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-0">
+                <div class="feature-card" id="card-2">
+                    <div class="lottie">
+                        <lottie-player id="lottie-2" src="resources/animations/product.json" background="transparent" speed="1" loop></lottie-player>
+                    </div>
+                    <div class="content">
+                        <h3>Unmatched Product Quality</h3>
+                        <p>We follow latest quality standards and adhering to to best coding guidelines</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-0">
+                <div class="feature-card" id="card-3">
+                    <div class="lottie">
+                        <lottie-player id="lottie-3" src="resources/animations/support.json" background="transparent" speed="1" loop></lottie-player>
+                    </div>
+                    <div class="content">
+                        <h3>Unparalleled Support</h3>
+                        <p>Get free maintenance and 24/7 support from our dedicated team members</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-0">
+                <div class="feature-card" id="card-4">
+                    <div class="lottie">
+                        <lottie-player id="lottie-4" src="resources/animations/development.json" background="transparent" speed="1" loop></lottie-player>
+                    </div>
+                    <div class="content">
+                        <h3>Flexible Development</h3>
+                        <p>Use of latest and flexible development models to ensure on-time delivery</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Why Us Section End -->
+
+    <!-- Timeline Section Start -->
+    <div class="timeline-section">
+        <!-- Floating CTA -->
+        <div class="floating-cta">
+            <div class="cta">Let's take your business to the next level</div>
+            <a href=""><button>Get Free Quote</button></a>
+        </div>
+
+        <h2 class="plan-your-project-title">Plan Your Project</h2>
+        <div class="plan-your-project">
+            <div class="row g-0">
+                <div class="col-4 p-0">
+                    <div class="data">
+                        <h4>Assessing Requirements</h4>
+                        <p>Requirement assessment refers to finding out the precise business requirement. This includes
+                            shaping the application goals, complete features, target audience, and other similar
+                            information about the application.</p>
+                    </div>
+                </div>
+                <div class="col-4 p-0">
+                    <div class="data">
+                        <h4>Summarizing Project</h4>
+                        <p>Project summary sums up the website's requirements. It serves as a reference point throughout
+                            the web development process and the document is typically concise.</p>
+                    </div>
+                </div>
+                <div class="col-4 p-0">
+                    <div class="data">
+                        <h4>Determining Required Resources</h4>
+                        <p>The project planning stage also defines the software and other resource requirements for the
+                            website project. In this step, the needs of 3rd party media is identified. All of the
+                            resource requirements is then added to the budget of the project.</p>
+                    </div>
+                </div>
+                <div class="col-4 p-0">
+                    <div class="data">
+                        <h4>Key performance goals</h4>
+                        <p>The website planning stage also involves determining key performance goals. Budgeted costs,
+                            project deadlines, and page speed are some of the website design and advance goals that are
+                            set at this stage.</p>
+                    </div>
+                </div>
+                <div class="col-4 p-0">
+                    <div class="data">
+                        <h4>Competitor Analysis</h4>
+                        <p>A competitor analysis is done. The type of audience, daily hits, load capability, security
+                            etc. are thought through. Other things that are considered important at this stage include
+                            visual branding, call to action, navigation, and layout.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="our-process-title">Our Process</h2>
+        <div class="our-process">
+            <div class="row g-0">
+                <div class="col p-0">
+                    <div class="collapse-container">
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header p-0" id="headingOne">
+                                    <button class="btn" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        Step 1: Requirements Gathering
+                                    </button>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        After planning, we work on determining project scope. Creating a well defined
+                                        scope
+                                        of the project helps in ensuring timely delivery within the specified budget.
+                                        One of
+                                        the best ways to outline the project scope is through a Gantt chart which offers
+                                        a
+                                        visual reference of the project and also creates accountability within the
+                                        development team.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header p-0" id="headingTwo">
+                                    <h5 class="mb-0">
+                                        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            Step 2: Design
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        The next phase is application designing wherein we focus on selecting the theme,
+                                        color, flow, screen layout, features, and other aspects of the application. In a
+                                        way
+                                        it could be treated as a prototype which gives you the complete feel of the
+                                        application without the functionality (without the code). The development team
+                                        can
+                                        send the prototypes to the client for review, feedback & approval.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header p-0" id="headingThree">
+                                    <h5 class="mb-0">
+                                        <button class="btn collapsed" data-toggle="collapse"
+                                            data-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                            Step 3: Development
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Here the prototypes approved by the client are transformed into working code.
+                                        The
+                                        development process can be divided into two parts, i.e. frontend and backend.
+                                        Frontend, as the name suggests, is development of the client side application
+                                        visible to the users and is used by them. Here usability & looks are very
+                                        important.
+                                        <br>
+                                        Backend refers to development of the server side application that is the heart
+                                        of
+                                        the complete application and makes the user interface into a working web
+                                        application. The backend developers create the server-side application,
+                                        database,
+                                        integrates business logic and everything that works under the hood.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header p-0" id="headingFour">
+                                    <h5 class="mb-0">
+                                        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
+                                            Step 4: Testing and Deployment
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Next comes the testing and deployment process where the QA team tests the
+                                        application before deployment. The designer, developer & QA members will check &
+                                        test the complete functionality of the application to ensure that it runs
+                                        smoothly
+                                        when made live.
+                                        <br>
+                                        After final approval from the client, the application is delivered. The
+                                        application
+                                        files and other associated data are set up on a server so that the target
+                                        audience
+                                        can start using it.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header p-0" id="headingFive">
+                                    <h5 class="mb-0">
+                                        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseFive"
+                                            aria-expanded="false" aria-controls="collapseFive">
+                                            Step 5: Maintenance
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        The application development process doesn't end after go-live & there are
+                                        several
+                                        post-deployment tasks to be carried out such as providing the clients with
+                                        project
+                                        documents, working on their feedbacks and maintenance and support.
+                                        Further enhancements according to the user's feedback, support and maintenance
+                                        as
+                                        well as new updates are equally necessary and hence this phase helps to improve
+                                        client's service and stay ahead in the market.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="resources/images/timeline.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Timeline Section End -->
+
+    <!-- UI/UX Section Start -->
+    <div class="uiux-section">
+        <h2 class="title">REDESIGN <span><img src="resources/images/and.png" style="height: 70px; margin-bottom: 7px;"></span>
+            UPGRADE</h2>
+        <p>Unleash the Power of UI/UX and design websites that convert like magic!</p>
+        <video id="uiux_video" autoplay loop>
+            <source src="resources/videos/redesign.mp4" type="video/mp4">
+        </video>
+    </div>
+    <!-- UI/UX Section End -->
+
+    <!-- Testimonials Start -->
+    <div class="testimonials-section">
+        <div class="floating-div">
+            <div class="text-container">
+                <div>Previous Works</div>
+            </div>
+        </div>
+        <div class="project-content">
+            <div class="project-content-carousel">
+                <div class="project-content-sub-carousel">
+                    <img src="resources/images/testimonial-group-1.png" alt="Project Carousel Image">
+                    <img class="margin-start" src="resources/images/testimonial-group-2.png" alt="Project Carousel Image">
+                </div>
+                <div class="project-content-sub-carousel">
+                    <img src="resources/images/testimonial-group-1.png" alt="Project Carousel Image">
+                    <img class="margin-start" src="resources/images/testimonial-group-2.png" alt="Project Carousel Image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonials End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="row g-0">
+            <div class="col-8">
+                <p>
+                    Get your <strong>Web Application</strong> today
+                    <br>
+                    Enrich your business capabilities with our custom built web applications.
+                </p>
+
+                <button>Let's discuss Your Vision</button>
+            </div>
+            <div class="col-4">
+                <div class="talk-to-us">
+                    <h2>Talk To Us</h2>
+                    <div><a href="tel:+91701871130">+91 700-187-1130</a></div>
+                    <div><a href="mailto:parvez@appstudios.in">parvez@appstudios.in</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <div class="cursor-dot-outline"></div>
+    <div class="cursor-dot"></div>
+    <script src="vendors/js/web.js"></script>
+    <script src="vendors/js/cursor.js"></script>
+</body>
